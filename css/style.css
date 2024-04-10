@@ -26,9 +26,10 @@ h5,
 h6 {
   font-family: "Roboto", sans-serif;
 }
+
 /*copy rights links*/
 .copyRightsLinks {
-  color: #7F816A;
+  color: #00A552;
 }
 
 .copyRightsLinks:hover {
