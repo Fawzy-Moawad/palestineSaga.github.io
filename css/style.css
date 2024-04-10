@@ -750,6 +750,10 @@ h6 {
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
+.navbar-mobile .dropdown ul:hover {
+  background: #E0C5AE;
+}
+
 .navbar-mobile .dropdown ul li {
   min-width: 200px;
 }
