@@ -312,6 +312,28 @@ h6 {
   overflow: hidden; /* Hide overflowing content */
 }
 
+.banner-26 {
+  width: 100%;
+  margin-left: calc(50% - 50vw);
+  height: 62.5vmin;
+  min-height: 15em;
+  background: linear-gradient(#000, transparent, #000),
+              url('../img/banner/26.jpg') 50% / cover fixed; /* Use fixed background-attachment */
+  background-blend-mode: multiply;
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.banner-27 {
+  width: 100%;
+  margin-left: calc(50% - 50vw);
+  height: 62.5vmin;
+  min-height: 15em;
+  background: linear-gradient(#000, transparent, #000),
+              url('../img/banner/27.jpg') 50% / cover fixed; /* Use fixed background-attachment */
+  background-blend-mode: multiply;
+  overflow: hidden; /* Hide overflowing content */
+}
+
 .banner-audio-books {
   width: 100%;
   margin-left: calc(50% - 50vw);
