@@ -1225,8 +1225,10 @@ p {
 }
 
 .gallery-image-card-text h5 {
-  color: #FFFFFF;
+  color: #262628;
+  font-weight: bold;
 }
+
 
 /*
 #Pictures page
@@ -1560,8 +1562,9 @@ Videos
   opacity: 1;
 }
 
-.video-galleryimage-card-text h5 {
-  color: #FFFFFF;
+.video-gallery-image-card-text h5 {
+  color: #262628;
+  font-weight: bold;
 }
 
 /*--------------------------------------------------------------
