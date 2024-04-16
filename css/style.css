@@ -4,6 +4,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
   color: #262628;
   background-color: #A8181B;
 }
@@ -1236,7 +1237,7 @@ p {
 .gallery-row {
   display: flex;
   flex-wrap: wrap;
-  margin: -15px; /* Negative margin to counteract padding */
+  
 }
 
 .col-md-4 {
