@@ -410,6 +410,16 @@ h6 {
   font-weight: bold;
 }
 
+.notes-text p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.notes-text h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1189,13 +1199,7 @@ p {
 /*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
-.warning-h {
-font-size: large;
-}
 
-.warning-p {
-
-}
 .gallery-image-card {
   position: relative;
   overflow: hidden;
