@@ -1189,7 +1189,13 @@ p {
 /*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
+.warning-h {
+font-size: large;
+}
 
+.warning-p {
+
+}
 .gallery-image-card {
   position: relative;
   overflow: hidden;
