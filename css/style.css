@@ -6,7 +6,7 @@ body {
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
   color: #262628;
-  background-color: #A8181B;
+  background-color: #fff;
 }
 
 a {
@@ -30,11 +30,11 @@ h6 {
 
 /*copy rights links*/
 .copyRightsLinks {
-  color: #00A552;
+  color: #A8181B;
 }
 
 .copyRightsLinks:hover {
-  color: #262628;
+  color: #00A552;
 }
 /*---------------------------------------
 # Banners Section
@@ -405,6 +405,8 @@ h6 {
 /*--------------------------------------------------------------
 # Notes
 --------------------------------------------------------------*/
+
+/*
 .notes-text p span {
   color: #00A552;
   font-weight: bold;
@@ -419,7 +421,11 @@ h6 {
   font-size: 25px;
   font-weight: bold;
 }
+*/
 
+.notes-text h2 {
+  color: #ed3c0d;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1070,17 +1076,17 @@ h6 {
   margin: 15px 0 0 0;
   font-size: 32px;
   font-weight: 700;
-  color: #262628;
+  color: #00A552;
 }
 
 .section-title h2 span {
-  color: #7F816A;
+  color: #A8181B;
 }
 
 .section-title p {
   margin: 15px auto 0 auto;
   font-weight: 300;
-  color: #E0C5AE;
+  color: #1d1d1d;
 }
 
 /*----------------------------------------
@@ -1102,18 +1108,18 @@ h6 {
 }
 
 h2 {
-  color: #333;
+  color: #00A552;
   margin-bottom: 10px;
   font-size: 20px;
   font-weight: 700;
 }
 
 span {
-  color: #7F816A;
+  color: #A8181B;
 }
 
 p {
-  color: #E0C5AE;
+  color: #1d1d1d;
   margin: 0;
   font-size: 16px;
 }
@@ -1132,12 +1138,12 @@ p {
   font-size: 20px;
   font-weight: 700;
   margin-top: 5px;
-  color: #262628;
+  color: #A8181B;
 }
 
 .about .content p {
   font-size: 15px;
-  color: #E0C5AE;
+  color: #1d1d1d;
 }
 
 .about .content ul {
@@ -1174,7 +1180,7 @@ p {
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #262628;
+  background-color: #00A552;
   cursor: pointer;
 }
 
@@ -1184,14 +1190,22 @@ p {
   border: 1px solid #ccc;
   border-radius: 5px;
   color: #262628;
-  background-color: #00a552;
+  background-color: #A8181B;
   cursor: pointer;
 }
 
-.history-custom-box h6 {
-  color: #e91b23;
+.history-custom-box h5 {
+  color: #E91B23;
 }
 
+
+.history-custom-box h6 {
+  color: #1d1d1d;
+}
+
+.history-custom-box p {
+  color: #fff;
+}
 .history .col-lg-4 {
   /* Add a specific height or use min-height to ensure the container has enough height */
   min-height: 400px; /* Adjust the value as needed */
@@ -1470,7 +1484,7 @@ p {
 }
 
 .special-contentCreator-image-card-text p {
-  color: #262628;
+  color: #A8181B;
   margin-top: 5px;
   font-size: medium;
   font-weight: bold;
@@ -1522,7 +1536,7 @@ p {
 }
 
 .contentCreator-image-card-text p {
-  color: #262628;
+  color: #A8181B;
   margin-top: 5px;
   font-size: medium;
   font-weight: bold;
