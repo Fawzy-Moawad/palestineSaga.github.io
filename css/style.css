@@ -494,6 +494,14 @@ h6 {
   text-decoration: none;
 }
 
+#header .logo h1 i {
+  color: #A8181B;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  max-height: 40px;
+}
+
 #header .logo img {
   padding: 0;
   margin: 0;
