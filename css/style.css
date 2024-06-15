@@ -1285,15 +1285,15 @@ p {
 #Pages List
 */
 .pages-list a.page-link {
-  color: #fff;
-}
-
-.pages-list a.page-link:hover {
   color: #00A552;
 }
 
+.pages-list a.page-link:hover {
+  color: #ed3c0d;
+}
+
 .pages-list a.page-link.active {
-  color: #262628; /* Change this to your desired color */
+  color: #1d1d1d; /* Change this to your desired color */
 }
 
 
