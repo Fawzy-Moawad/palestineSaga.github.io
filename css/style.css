@@ -671,7 +671,7 @@ h6 {
   Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #00A552;
+  color: #E91B23;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -1261,7 +1261,6 @@ p {
 .gallery-row {
   display: flex;
   flex-wrap: wrap;
-  
 }
 
 .col-md-4 {
@@ -1270,11 +1269,11 @@ p {
 
 .pic-gallery-image-card {
   display: flex;
-  align-items: stretch;
+  align-items: center;
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  height: 500px;
+  height: 475px;
 }
 
 .instagram-media {
