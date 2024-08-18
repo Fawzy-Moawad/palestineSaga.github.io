@@ -406,23 +406,6 @@ h6 {
 # Notes
 --------------------------------------------------------------*/
 
-/*
-.notes-text p span {
-  color: #00A552;
-  font-weight: bold;
-}
-
-.notes-text p {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.notes-text h3 {
-  font-size: 25px;
-  font-weight: bold;
-}
-*/
-
 .notes-text h2 {
   color: #ed3c0d;
 }
@@ -508,9 +491,6 @@ h6 {
   max-height: 40px;
 }
 
-#header .logo h3 {
-  color: #A8181B;
-}
 
 /*--------------------------------------------------------------
 # Navigation Menu
