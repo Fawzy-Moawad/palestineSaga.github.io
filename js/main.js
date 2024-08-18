@@ -1,10 +1,4 @@
-/**
-* Template Name: Delicious
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
@@ -228,24 +222,6 @@
     selector: '.gallery-lightbox'
   });
 
-  /**
-   * Testimonials slider
-   */
-  new Swiper('.testimonials-slider', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
-
 })()
 
 
@@ -283,3 +259,103 @@ new Swiper('.gallery-slider', {
 });
 
 
+//Language
+
+document.addEventListener('DOMContentLoaded', function () {
+  let currentLanguage = 'en';
+
+  function updateContent() {
+      const navbarEn = document.getElementById('navbar-en');
+      const navbarAr = document.getElementById('navbar-ar');
+      const heroContentEn = document.getElementById('hero-content-en');
+      const heroContentAr = document.getElementById('hero-content-ar');
+      const aboutContentEn = document.getElementById('about-content-en');
+      const aboutContentAr = document.getElementById('about-content-ar');
+      const servicesContentEn = document.getElementById('services-content-en');
+      const servicesContentAr = document.getElementById('services-content-ar');
+      const servicesSocialContentEn = document.getElementById('services-social-content-en');
+      const servicesSocialContentAr = document.getElementById('services-social-content-ar');
+      const upcomingEventsContentEn = document.getElementById('upcomingEvents-content-en');
+      const upcomingEventsContentAr = document.getElementById('upcomingEvents-content-ar');
+      const contactContentEn = document.getElementById('contact-content-en');
+      const contactContentAr = document.getElementById('contact-content-ar');
+      const footerContentEn = document.getElementById('footer-content-en');
+      const footerContentAr = document.getElementById('footer-content-ar');
+      const comingsoonContentEn = document.getElementById('comingsoon-content-en');
+      const comingsoonContentAr = document.getElementById('comingsoon-content-ar');
+
+      // Toggle visibility based on current language
+      const elements = {
+          navbarEn,
+          navbarAr,
+          heroContentEn,
+          heroContentAr,
+          aboutContentEn,
+          aboutContentAr,
+          servicesContentEn,
+          servicesContentAr,
+          servicesSocialContentEn,
+          servicesSocialContentAr,
+          upcomingEventsContentEn,
+          upcomingEventsContentAr,
+          contactContentEn,
+          contactContentAr,
+          footerContentEn,
+          footerContentAr,
+          comingsoonContentEn,
+          comingsoonContentAr
+      };
+
+      for (const [key, value] of Object.entries(elements)) {
+          if (value) {
+              if (key.includes('En')) {
+                  value.style.display = currentLanguage === 'en' ? 'block' : 'none';
+              } else if (key.includes('Ar')) {
+                  value.style.display = currentLanguage === 'ar' ? 'block' : 'none';
+              }
+          }
+      }
+
+      // Update the checkbox state
+      const languageToggle = document.getElementById('languageToggle');
+      if (languageToggle) {
+          languageToggle.checked = currentLanguage === 'ar';
+      }
+  }
+
+  function toggleLanguage() {
+      currentLanguage = currentLanguage === 'en' ? 'ar' : 'en';
+      localStorage.setItem('lang', currentLanguage);
+      updateContent();
+  }
+
+  // Get saved language from localStorage
+  const savedLanguage = localStorage.getItem('lang');
+  if (savedLanguage) {
+      currentLanguage = savedLanguage;
+  }
+
+  // Set the initial state of the toggle switch
+  const languageToggle = document.getElementById('languageToggle');
+  if (languageToggle) {
+      languageToggle.checked = currentLanguage === 'ar';
+      languageToggle.addEventListener('change', toggleLanguage);
+  }
+
+  updateContent();
+
+  // Handle mobile nav toggle
+  const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
+  if (mobileNavToggle) {
+      mobileNavToggle.addEventListener('click', function () {
+          const navbarEn = document.getElementById('navbar-en');
+          const navbarAr = document.getElementById('navbar-ar');
+          if (currentLanguage === 'en' && navbarEn) {
+              navbarEn.classList.toggle('navbar-mobile');
+          } else if (currentLanguage === 'ar' && navbarAr) {
+              navbarAr.classList.toggle('navbar-mobile');
+          }
+          this.classList.toggle('bi-x');
+      });
+  }
+});
