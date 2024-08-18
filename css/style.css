@@ -508,6 +508,10 @@ h6 {
   max-height: 40px;
 }
 
+#header .logo h3 {
+  color: #A8181B;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -1894,44 +1898,23 @@ Videos
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 700;
-  color: #7F816A;
+  color: #fff;
 }
 
-#footer .footer-top .footer-info p {
+#footer .footer-top .footer-info p .footer-emails{
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+#footer .footer-top .footer-info p .footer-emails strong {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Roboto", sans-serif;
   color: #7F816A;
-}
-
-#footer .footer-top .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #2a2a2a;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-
-#footer .footer-top .social-links a:hover {
-  background: #5c9f24;
-  color: #fff;
-  text-decoration: none;
-}
-
-#footer .footer-top h4 {
-  font-size: 16px;
-  font-weight: 600;
-  color: #fff;
-  position: relative;
-  padding-bottom: 12px;
 }
 
 #footer .footer-top .footer-links {
@@ -1972,47 +1955,9 @@ Videos
   color: #81d33d;
 }
 
-#footer .footer-top .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 4px;
-}
 
-#footer .footer-top .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 4px;
-  width: calc(100% - 110px);
-}
-
-#footer .footer-top .footer-newsletter form input[type=submit] {
-  position: absolute;
-  top: 0;
-  right: -2px;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  background: #5c9f24;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 0 4px 4px 0;
-}
-
-#footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #6ab82a;
-}
 
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
-}
-
-#footer .credits {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 13px;
-  color: #fff;
 }
