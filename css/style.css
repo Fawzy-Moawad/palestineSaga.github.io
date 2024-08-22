@@ -579,7 +579,7 @@ Toggle Section
   text-align: center;
   line-height: 1;
   padding: 9px 4px;
-  background-color: #14213d;
+  background-color: #A8181B;
   border-radius: 2px;
   transition: 0.3s ease all, left 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15);
 }
@@ -595,7 +595,7 @@ Toggle Section
 #button-16 .checkbox:checked + .knobs:before {
   content: "عربي";
   left: 42px;
-  background-color: #0785F3;
+  background-color: #111111;
 }
 
 #button-16 .checkbox:checked ~ .layer {
@@ -772,8 +772,8 @@ Toggle Section
   Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #E91B23;
-  font-size: 28px;
+  color: #00A552;
+  font-size: 50px;
   cursor: pointer;
   display: none;
   line-height: 0;

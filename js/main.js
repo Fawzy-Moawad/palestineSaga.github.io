@@ -267,16 +267,8 @@ document.addEventListener('DOMContentLoaded', function () {
   function updateContent() {
       const navbarEn = document.getElementById('navbar-en');
       const navbarAr = document.getElementById('navbar-ar');
-      const heroContentEn = document.getElementById('hero-content-en');
-      const heroContentAr = document.getElementById('hero-content-ar');
       const aboutContentEn = document.getElementById('about-content-en');
       const aboutContentAr = document.getElementById('about-content-ar');
-      const servicesContentEn = document.getElementById('services-content-en');
-      const servicesContentAr = document.getElementById('services-content-ar');
-      const servicesSocialContentEn = document.getElementById('services-social-content-en');
-      const servicesSocialContentAr = document.getElementById('services-social-content-ar');
-      const upcomingEventsContentEn = document.getElementById('upcomingEvents-content-en');
-      const upcomingEventsContentAr = document.getElementById('upcomingEvents-content-ar');
       const contactContentEn = document.getElementById('contact-content-en');
       const contactContentAr = document.getElementById('contact-content-ar');
       const footerContentEn = document.getElementById('footer-content-en');
@@ -288,16 +280,8 @@ document.addEventListener('DOMContentLoaded', function () {
       const elements = {
           navbarEn,
           navbarAr,
-          heroContentEn,
-          heroContentAr,
           aboutContentEn,
           aboutContentAr,
-          servicesContentEn,
-          servicesContentAr,
-          servicesSocialContentEn,
-          servicesSocialContentAr,
-          upcomingEventsContentEn,
-          upcomingEventsContentAr,
           contactContentEn,
           contactContentAr,
           footerContentEn,
