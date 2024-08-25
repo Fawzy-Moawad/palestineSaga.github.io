@@ -49,6 +49,11 @@ h6 {
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
 }
+@media (min-width: 768px) {
+  .banner-1 {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
+}
 
 .banner-2 {
   margin-left: calc(50% - 50vw);
@@ -59,6 +64,11 @@ h6 {
               url('../img/banner/02.jpg') 50% / cover fixed; /* Use fixed background-attachment */
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
+}
+@media (min-width: 768px) {
+  .banner-2 {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
 }
 
 .banner-3 {
@@ -71,6 +81,11 @@ h6 {
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
 }
+@media (min-width: 768px) {
+  .banner-3 {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
+}
 
 .banner-4 {
   margin-left: calc(50% - 50vw);
@@ -81,6 +96,11 @@ h6 {
               url('../img/banner/04.jpg') 50% / cover fixed; /* Use fixed background-attachment */
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
+}
+@media (min-width: 768px) {
+  .banner-4 {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
 }
 
 .banner-5 {
@@ -93,6 +113,11 @@ h6 {
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
 }
+@media (min-width: 768px) {
+  .banner-5 {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
+}
 
 .banner-6 {
   margin-left: calc(50% - 50vw);
@@ -103,6 +128,11 @@ h6 {
               url('../img/banner/06.jpg') 50% / cover fixed; /* Use fixed background-attachment */
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
+}
+@media (min-width: 768px) {
+  .banner-6 {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
 }
 
 .banner-7 {
@@ -115,6 +145,11 @@ h6 {
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
 }
+@media (min-width: 768px) {
+  .banner-7 {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
+}
 
 .banner-8 {
   margin-left: calc(50% - 50vw);
@@ -125,6 +160,11 @@ h6 {
               url('../img/banner/08.jpg') 50% / cover fixed; /* Use fixed background-attachment */
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
+}
+@media (min-width: 768px) {
+  .banner-8 {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
 }
 
 .banner-9 {
@@ -137,6 +177,11 @@ h6 {
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
 }
+@media (min-width: 768px) {
+  .banner-9 {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
+}
 
 .banner-10 {
   margin-left: calc(50% - 50vw);
@@ -147,6 +192,11 @@ h6 {
               url('../img/banner/10.jpg') 50% / cover fixed; /* Use fixed background-attachment */
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
+}
+@media (min-width: 768px) {
+  .banner-10 {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
 }
 
 .banner-11 {
@@ -159,6 +209,11 @@ h6 {
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
 }
+@media (min-width: 768px) {
+  .banner-11 {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
+}
 
 .banner-12 {
   margin-left: calc(50% - 50vw);
@@ -169,6 +224,11 @@ h6 {
               url('../img/banner/12.jpg') 50% / cover fixed; /* Use fixed background-attachment */
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
+}
+@media (min-width: 768px) {
+  .banner-12 {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
 }
 
 .banner-13 {
@@ -181,6 +241,11 @@ h6 {
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
 }
+@media (min-width: 768px) {
+  .banner-13 {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
+}
 
 .banner-14 {
   width: 100%;
@@ -191,6 +256,11 @@ h6 {
               url('../img/banner/14.jpg') 50% / cover fixed; /* Use fixed background-attachment */
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
+}
+@media (min-width: 768px) {
+  .banner-14 {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
 }
 
 .banner-15 {
@@ -203,6 +273,11 @@ h6 {
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
 }
+@media (min-width: 768px) {
+  .banner-15 {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
+}
 
 .banner-16 {
   width: 100%;
@@ -213,6 +288,11 @@ h6 {
               url('../img/banner/16.jpg') 50% / cover fixed; /* Use fixed background-attachment */
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
+}
+@media (min-width: 768px) {
+  .banner-16 {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
 }
 
 .banner-17 {
@@ -225,6 +305,11 @@ h6 {
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
 }
+@media (min-width: 768px) {
+  .banner-17 {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
+}
 
 .banner-18 {
   width: 100%;
@@ -235,6 +320,11 @@ h6 {
               url('../img/banner/18.jpg') 50% / cover fixed; /* Use fixed background-attachment */
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
+}
+@media (min-width: 768px) {
+  .banner-18 {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
 }
 
 .banner-19 {
@@ -247,6 +337,11 @@ h6 {
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
 }
+@media (min-width: 768px) {
+  .banner-19 {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
+}
 
 .banner-20 {
   width: 100%;
@@ -257,6 +352,11 @@ h6 {
               url('../img/banner/20.jpg') 50% / cover fixed; /* Use fixed background-attachment */
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
+}
+@media (min-width: 768px) {
+  .banner-20 {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
 }
 
 .banner-21 {
@@ -269,6 +369,11 @@ h6 {
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
 }
+@media (min-width: 768px) {
+  .banner-21 {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
+}
 
 .banner-22 {
   width: 100%;
@@ -279,6 +384,11 @@ h6 {
               url('../img/banner/22.jpg') 50% / cover fixed; /* Use fixed background-attachment */
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
+}
+@media (min-width: 768px) {
+  .banner-22 {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
 }
 
 .banner-23 {
@@ -291,6 +401,11 @@ h6 {
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
 }
+@media (min-width: 768px) {
+  .banner-23 {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
+}
 
 .banner-24 {
   width: 100%;
@@ -301,6 +416,11 @@ h6 {
               url('../img/banner/24.jpg') 50% / cover fixed; /* Use fixed background-attachment */
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
+}
+@media (min-width: 768px) {
+  .banner-24 {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
 }
 
 .banner-25 {
@@ -313,6 +433,11 @@ h6 {
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
 }
+@media (min-width: 768px) {
+  .banner-25 {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
+}
 
 .banner-26 {
   width: 100%;
@@ -323,6 +448,11 @@ h6 {
               url('../img/banner/26.jpg') 50% / cover fixed; /* Use fixed background-attachment */
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
+}
+@media (min-width: 768px) {
+  .banner-26 {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
 }
 
 .banner-27 {
@@ -335,6 +465,11 @@ h6 {
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
 }
+@media (min-width: 768px) {
+  .banner-27 {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
+}
 
 .banner-audio-books {
   width: 100%;
@@ -345,6 +480,10 @@ h6 {
               url('../img/gallery/Audio-Books/banner.jpg') 50% / cover fixed; /* Use fixed background-attachment */
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
+}@media (min-width: 768px) {
+  .banner-audio-books {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
 }
 
 .banner-abdElwahab {
@@ -357,6 +496,11 @@ h6 {
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
 }
+@media (min-width: 768px) {
+  .banner-abdElwahab {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
+}
 
 .banner-bahaa {
   width: 100%;
@@ -367,6 +511,11 @@ h6 {
               url('../img/gallery/Books/arabic/Bahaa/BAHAA.webp') 50% / cover fixed; /* Use fixed background-attachment */
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
+}
+@media (min-width: 768px) {
+  .banner-bahaa {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
 }
 
 .banner-edward {
@@ -379,6 +528,11 @@ h6 {
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
 }
+@media (min-width: 768px) {
+  .banner-edward {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
+}
 
 .banner-ghassan {
   width: 100%;
@@ -390,6 +544,11 @@ h6 {
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
 }
+@media (min-width: 768px) {
+  .banner-ghassan {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
+}
 
 .banner-other-books {
   width: 100%;
@@ -400,6 +559,11 @@ h6 {
               url('../img/gallery/Books/books.jpg') 50% / cover fixed; /* Use fixed background-attachment */
   background-blend-mode: multiply;
   overflow: hidden; /* Hide overflowing content */
+}
+@media (min-width: 768px) {
+  .banner-other-books {
+    background-attachment: fixed; /* Fixed background for larger screens */
+  }
 }
 
 /*--------------------------------------------------------------
@@ -579,7 +743,7 @@ Toggle Section
   text-align: center;
   line-height: 1;
   padding: 9px 4px;
-  background-color: #A8181B;
+  background-color: #111111;
   border-radius: 2px;
   transition: 0.3s ease all, left 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15);
 }
@@ -595,7 +759,7 @@ Toggle Section
 #button-16 .checkbox:checked + .knobs:before {
   content: "عربي";
   left: 42px;
-  background-color: #111111;
+  background-color: #A8181B;
 }
 
 #button-16 .checkbox:checked ~ .layer {
@@ -1323,36 +1487,14 @@ p {
 .gallery-image-card img {
   transition: transform 0.3s ease;
   width: 100%; 
-  height: 300px; 
+  height: 275px; 
   object-fit: cover; 
 }
 
-.gallery-image-card:hover img {
-  transform: scale(1.1);
-}
-
-.gallery-image-card .gallery-card-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.gallery-image-card:hover .gallery-card-overlay {
-  opacity: 1;
-}
-
-.gallery-image-card-text h5 {
+.gallery-image-card h5 {
   color: #262628;
   font-weight: bold;
+  cursor: pointer;
 }
 
 
