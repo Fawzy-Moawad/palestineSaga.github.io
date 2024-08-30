@@ -156,17 +156,6 @@
     }
   });
 
-  /**
-   * Hero carousel indicators
-   */
-  let heroCarouselIndicators = select("#hero-carousel-indicators")
-  let heroCarouselItems = select('#heroCarousel .carousel-item', true)
-
-  heroCarouselItems.forEach((item, index) => {
-    (index === 0) ?
-    heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "' class='active'></li>":
-      heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "'></li>"
-  });
 
   /**
    * Menu isotope and filter
@@ -249,10 +238,16 @@ document.addEventListener('DOMContentLoaded', function () {
   function updateContent() {
       const navbarEn = document.getElementById('navbar-en');
       const navbarAr = document.getElementById('navbar-ar');
+      const homeContentEn = document.getElementById('home-content-en');
+      const homeContentAr = document.getElementById('home-content-ar');
+      const heroContentEn = document.getElementById('hero-content-en');
+      const heroContentAr = document.getElementById('hero-content-ar');
       const aboutContentEn = document.getElementById('about-content-en');
       const aboutContentAr = document.getElementById('about-content-ar');
       const contactContentEn = document.getElementById('contact-content-en');
       const contactContentAr = document.getElementById('contact-content-ar');
+      const noteContentEn = document.getElementById('note-content-en');
+      const noteContentAr = document.getElementById('note-content-ar');
       const footerContentEn = document.getElementById('footer-content-en');
       const footerContentAr = document.getElementById('footer-content-ar');
       const comingsoonContentEn = document.getElementById('comingsoon-content-en');
@@ -262,12 +257,18 @@ document.addEventListener('DOMContentLoaded', function () {
       const elements = {
           navbarEn,
           navbarAr,
+          homeContentEn,
+          homeContentAr,
+          heroContentEn,
+          heroContentAr,
           aboutContentEn,
           aboutContentAr,
           contactContentEn,
           contactContentAr,
           footerContentEn,
           footerContentAr,
+          noteContentEn,
+          noteContentAr,
           comingsoonContentEn,
           comingsoonContentAr
       };

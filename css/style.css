@@ -839,7 +839,7 @@ Toggle Section
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #E91B23;
+  color: #00A552;
 }
 
 .navbar .getstarted,
@@ -937,7 +937,7 @@ Toggle Section
 */
 .mobile-nav-toggle {
   color: #00A552;
-  font-size: 50px;
+  font-size: 35px;
   cursor: pointer;
   display: none;
   line-height: 0;
@@ -984,7 +984,7 @@ Toggle Section
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #7F816A;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -993,13 +993,13 @@ Toggle Section
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #2a2a2a;
+  color: #fff;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #A8181B;
+  color: #00A552;
 }
 
 .navbar-mobile>ul>li {
@@ -1065,9 +1065,11 @@ Toggle Section
 #hero {
   width: 100%;
   height: 100vh;
-  background-color: rgba(39, 37, 34, 0.8);
-  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 0;
+  position: relative;
 }
 
 #hero .carousel-item {
@@ -1101,6 +1103,8 @@ Toggle Section
 
 #hero .carousel-content {
   text-align: center;
+  z-index: 2;
+  position: relative;
 }
 
 #hero h2 {
@@ -1116,14 +1120,13 @@ Toggle Section
 
 #hero p {
   width: 80%;
-  animation-delay: 0.4s;
   margin: 0 auto 30px auto;
   color: #FFFFFF;
 }
 
 #hero .carousel-inner .carousel-item {
   transition-property: opacity;
-  background-position: center top;
+  background-position: center;
 }
 
 #hero .carousel-inner .carousel-item,
@@ -1139,21 +1142,8 @@ Toggle Section
   transition: 0.5s;
 }
 
-#hero .carousel-inner .carousel-item-next,
-#hero .carousel-inner .carousel-item-prev,
-#hero .carousel-inner .active.carousel-item-start,
-#hero .carousel-inner .active.carousel-item-end {
-  left: 0;
-  transform: translate3d(0, 0, 0);
-}
-
 #hero .carousel-control-next-icon,
 #hero .carousel-control-prev-icon {
-  background: none;
-  font-size: 30px;
-  line-height: 0;
-  width: auto;
-  height: auto;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 50px;
   transition: 0.3s;
@@ -1177,19 +1167,24 @@ Toggle Section
 }
 
 @media (max-width: 768px) {
+  #hero {
+      height: 70vh;
+      background-position: center center;
+  }
+  
   #hero h2 {
-    font-size: 28px;
+      font-size: 24px;
   }
-}
 
-@media (min-width: 1024px) {
   #hero p {
-    width: 50%;
+      font-size: 16px;
+      width: 90%;
   }
 
-  #hero .carousel-control-prev,
-  #hero .carousel-control-next {
-    width: 5%;
+  #hero .carousel-control-next-icon,
+  #hero .carousel-control-prev-icon {
+      width: 40px;
+      height: 40px;
   }
 }
 
@@ -1370,6 +1365,7 @@ Toggle Section
   margin-bottom: 20px;
   padding: 20px;
   box-sizing: border-box;
+  background-color: #f5f5f5   ;
 }
 
 h2 {
@@ -1441,21 +1437,11 @@ p {
 #History
 --------------------------------------------------------------*/
 .history-custom-box {
-  height: 375px;
+  height: 100%;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #00A552;
-  cursor: pointer;
-}
-
-.history-custom-box:hover {
-  height: 375px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  color: #262628;
-  background-color: #A8181B;
+  background-color: #f5f5f5    ;
   cursor: pointer;
 }
 
@@ -1463,21 +1449,26 @@ p {
   color: #E91B23;
 }
 
+.history-custom-box h5 span {
+  color: #00A552;
+}
+
 
 .history-custom-box h6 {
-  color: #1d1d1d;
+  color: #7F816A;
 }
 
 .history-custom-box p {
-  color: #fff;
+  color: #1d1d1d;
 }
-.history .col-lg-4 {
-  /* Add a specific height or use min-height to ensure the container has enough height */
-  min-height: 400px; /* Adjust the value as needed */
-}
+
+
 /*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
+.gallery-pic-card {
+background-color: #f5f5f5;
+}
 
 .gallery-image-card {
   position: relative;
@@ -1493,7 +1484,6 @@ p {
 
 .gallery-image-card h5 {
   color: #262628;
-  font-weight: bold;
   cursor: pointer;
 }
 
@@ -1501,14 +1491,6 @@ p {
 /*
 #Pictures page
 */
-.gallery-row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.col-md-4 {
-  padding: 15px; /* Padding between cards */
-}
 
 .pic-gallery-image-card {
   display: flex;
@@ -1516,7 +1498,6 @@ p {
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  height: 475px;
 }
 
 .instagram-media {
@@ -1578,16 +1559,10 @@ p {
 
 /*Books Pictures*/
 .custom-img {
-  height: 300px;
+  height: 275px;
   width: 200px;
-  padding-bottom: 30px;
   transition: transform 0.3s ease-in-out;
 }
-
-.custom-img:hover {
-  transform: scale(1.1); /* Scale the image on hover */
-}
-
 
 
 /*TV Shows & Movies*/
@@ -1602,10 +1577,6 @@ p {
   width: 100%; 
   height: 350px; 
   object-fit: cover; 
-}
-
-.movies-image-card:hover img {
-  transform: scale(1.1);
 }
 
 .movies-image-card .movies-card-overlay {
@@ -1643,10 +1614,6 @@ p {
   width: 100%; 
   height: 175px; 
   object-fit: cover; 
-}
-
-.podcust-image-card:hover img {
-  transform: scale(1.1);
 }
 
 .podcust-image-card .podcust-card-overlay {
@@ -1698,10 +1665,6 @@ p {
   align-items: center;
 }
 
-.special-contentCreator-image-card:hover img {
-  transform: scale(1.1);
-}
-
 .special-contentCreator-image-card .special-contentCreator-card-overlay {
   position: absolute;
   top: 0;
@@ -1717,16 +1680,12 @@ p {
   transition: opacity 0.3s ease;
 }
 
-.special-contentCreator-image-card:hover .special-contentCreator-card-overlay {
-  opacity: 1;
-}
-
 .special-contentCreator-image-card-text h5 {
   color: #ffffff;
 }
 
 .special-contentCreator-image-card-text p {
-  color: #A8181B;
+  color: #111111;
   margin-top: 5px;
   font-size: medium;
   font-weight: bold;
@@ -1750,10 +1709,6 @@ p {
   object-fit: cover; 
 }
 
-.contentCreator-image-card:hover img {
-  transform: scale(1.1);
-}
-
 .contentCreator-image-card .contentCreator-card-overlay {
   position: absolute;
   top: 0;
@@ -1769,16 +1724,12 @@ p {
   transition: opacity 0.3s ease;
 }
 
-.contentCreator-image-card:hover .contentCreator-card-overlay {
-  opacity: 1;
-}
-
 .contentCreator-image-card-text h5 {
   color: #ffffff;
 }
 
 .contentCreator-image-card-text p {
-  color: #A8181B;
+  color: #111111;
   margin-top: 5px;
   font-size: medium;
   font-weight: bold;
@@ -1932,8 +1883,8 @@ Videos
 # Contact
 --------------------------------------------------------------*/
 #contact .contact-col {
-  background-color: #00A552;
-  color: #fff;
+  background-color: #f5f5f5;
+  color: #111111;
 }
 
 #contact .contact-col:hover {

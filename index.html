@@ -55,7 +55,7 @@
                   </nav><!-- .navbar -->
 
                   <!-- Arabic Navbar -->
-                  <nav id="navbar-ar" class="navbar order-last order-lg-0" style="display: none;">
+                  <nav id="navbar-ar" dir='rtl' lang='ar' class="navbar order-last order-lg-0" style="display: none;">
                     <ul>
                         <li><a class="nav-link scrollto active" href="index.html">الصفحة الرئيسية</a></li>
                         <li><a class="nav-link scrollto" href="about.html">من نحن</a></li>
@@ -95,36 +95,43 @@
 
                     <div class="carousel-inner" role="listbox">
 
-                                    <!-- Slide 1 -->
-                        <div class="carousel-item active" style="background-image: url(./img/hero/slide-1.jpg);">
-                            <div class="carousel-container">
-                                <div class="carousel-content">
-                                <h2 class="animate__animated animate__fadeInDown"><span>Experience Palestine:</span> A Curated Space for In-Depth Insights.</h2>
-                                <p class="animate__animated animate__fadeInUp">Step into a repository of knowledge tailored for those eager to deepen their understanding of Palestine.</p>
+                        <!-- English Content -->
+                        <div id="hero-content-en">
+                            
+                            <div class="carousel-item active" style="background-image: url(./img/hero/slide-1.webp);">
+                                <div class="carousel-container">
+                                    <div class="carousel-content">
+                                        
+                                        <!--
+                                        
+                                        <h2 class="animate__animated animate__fadeInDown"><span>Experience Palestine:</span> A Curated Space for In-Depth Insights.</h2>
+                                        <p class="animate__animated animate__fadeInUp">Step into a repository of knowledge tailored for those eager to deepen their understanding of Palestine.</p>
+                                        
+                                        -->
+                                    </div>
                                 </div>
                             </div>
+                            
+                            
                         </div>
 
-                                    <!-- Slide 2 -->
-                        <div class="carousel-item" style="background-image: url(./img/hero/slide-1.jpg);">
-                            <div class="carousel-container">
-                                <div class="carousel-content">
-                                <h2 class="animate__animated animate__fadeInDown"><span>Championing Palestinian Freedom:</span> Our Collective Home.</h2>
-                                <p class="animate__animated animate__fadeInUp">We stand as a haven for those who share the conviction that the freedom of the Palestinian people is a crucial element in attaining our shared liberation.<br>
-                                    Offering resources and historical insights, we embrace all who stand in solidarity with Palestine.</p>
-                                </div>
-                            </div>
-                        </div>
+                        <!-- Arabic Content -->
+                        <div id="hero-content-ar" dir='rtl' lang='ar' style="display: none;">
 
-                                    <!-- Slide 3 -->
-                        <div class="carousel-item" style="background-image: url(./img/hero/slide-1.jpg);">
-                            <div class="carousel-container">
-                                <div class="carousel-content">
-                                <h2 class="animate__animated animate__fadeInDown"><span>Solidarity for Palestine:</span> An Inclusive Haven.</h2>
-                                <p class="animate__animated animate__fadeInUp">In this welcoming sanctuary, we bring together individuals who understand that the freedom of the Palestinian people is inseparable from our joint pursuit of collective liberty.<br>
-                                    Explore a treasure trove of materials and stories that echo the essence of unity in support of Palestine.</p>
+                            <div class="carousel-item active" style="background-image: url(./img/hero/slide-1.webp);">
+                                <div class="carousel-container">
+                                    <div class="carousel-content">
+                                        
+                                        <!--
+                                        
+                                        <h2 class="animate__animated animate__fadeInDown"><span>تجربة فلسطين:</span> مساحة منسقة للحصول على رؤى متعمقة.</h2>
+                                        <p class="animate__animated animate__fadeInUp">ادخل إلى مستودع للمعرفة مصمم خصيصا لأولئك الذين يتوقون إلى تعميق فهمهم لفلسطين.</p>
+                                        
+                                        -->
+                                    </div>
                                 </div>
                             </div>
+                                                                    
                         </div>
 
                     </div>
@@ -138,44 +145,84 @@
                         <!--Text Section-->
 
         <section class="home-sectrion container">
-            <div class="row align-items-start">
-    
-                <!-- First Column -->
-                <div class="col-md-4">
-                    <div class="home-section-title pt-5 border rounded">
-                        <h2><span>Embark on a Journey:</span> Discover Palestine’s Rich Tapestry</h2>
-                        <p>
-                            Welcome to a curated space where the vibrant threads of Palestine's history, culture, and resilience weave together.<br>
-                            Immerse yourself in a journey of in-depth insights, meticulously crafted to satisfy the curiosity of those eager to uncover the heart and soul of Palestine.
-                        </p>
+
+            <!-- English Content -->
+            <div id="home-content-en">
+                
+                <div class="row">
+                    <!-- First Column -->
+                    <div class="col-md-4">
+                        <div class="home-section-title pt-5 border rounded">
+                            <h2><span>Embark on a Journey:</span> Discover Palestine’s Rich Tapestry</h2>
+                            <p>
+                                Welcome to a curated space where the vibrant threads of Palestine's history, culture, and resilience weave together.
+                                Immerse yourself in a journey of in-depth insights, meticulously crafted to satisfy the curiosity of those eager to uncover the heart and soul of Palestine.
+                            </p>
+                        </div>
+                    </div>
+        
+                    <!-- Second Column -->
+                    <div class="col-md-4">
+                        <div class="home-section-title pt-5 border rounded">
+                            <h2><span>Home of Liberation:</span> Stand with Palestine, Stand for Freedom</h2>
+                            <p>
+                                Our digital haven beckons all champions of justice.
+                                Here, we stand united in our unwavering belief that the freedom of the Palestinian people is not just a cause; it's the heartbeat of our collective home.<br>
+                                Delve into a reservoir of resources and historical wisdom, joining hands in solidarity for the liberation we all seek.
+                            </p>
+                        </div>
+                    </div>
+        
+                    <!-- Third Column -->
+                    <div class="col-md-4">
+                        <div class="home-section-title pt-5 border rounded">
+                            <h2><span>Unity Sanctuary:</span> Where Voices Echo in Solidarity</h2>
+                            <p>
+                                Step into an inclusive haven where solidarity knows no bounds.
+                                Here, the freedom of the Palestinian people resonates as a vital chord in the symphony of collective liberty.
+                                Join our diverse community and explore a treasure trove of materials and stories, echoing the essence of unity and support for Palestine.
+                            </p>
+                        </div>
                     </div>
                 </div>
-    
-                <!-- Second Column -->
-                <div class="col-md-4">
-                    <div class="home-section-title pt-5 border rounded">
-                        <h2><span>Home of Liberation:</span> Stand with Palestine, Stand for Freedom</h2>
-                        <p>
-                            Our digital haven beckons all champions of justice.<br>
-                            Here, we stand united in our unwavering belief that the freedom of the Palestinian people is not just a cause; it's the heartbeat of our collective home.<br>
-                            Delve into a reservoir of resources and historical wisdom, joining hands in solidarity for the liberation we all seek.
-                        </p>
-                    </div>
-                </div>
-    
-                <!-- Third Column -->
-                <div class="col-md-4">
-                    <div class="home-section-title pt-5 border rounded">
-                        <h2><span>Unity Sanctuary:</span> Where Voices Echo in Solidarity</h2>
-                        <p>
-                            Step into an inclusive haven where solidarity knows no bounds.<br>
-                            Here, the freedom of the Palestinian people resonates as a vital chord in the symphony of collective liberty.<br>
-                            Join our diverse community and explore a treasure trove of materials and stories, echoing the essence of unity and support for Palestine.
-                        </p>
-                    </div>
-                </div>
-    
             </div>
+
+            <!-- Arabic Content -->
+            <div id="home-content-ar" dir='rtl' lang='ar' style="display: none;">
+
+                <div class="row">
+                        <!-- First Column -->
+                    <div class="col-md-4">
+                        <div class="home-section-title pt-5 border rounded">
+                            <h2><span>الشروع في رحلة:</span> اكتشف نسيج فلسطين الغني</h2>
+                            <p>
+                                مرحبا بكم في مساحة منسقة حيث تنسج معا خيوط نابضة بالحياة من تاريخ فلسطين وثقافتها ومرونتها. انغمس في رحلة من الرؤى المتعمقة، المصممة بدقة لإرضاء فضول أولئك الذين يتوقون إلى الكشف عن قلب وروح فلسطين.
+                            </p>
+                        </div>
+                    </div>
+        
+                    <!-- Second Column -->
+                    <div class="col-md-4">
+                        <div class="home-section-title pt-5 border rounded">
+                            <h2><span>بيت التحرير:</span> قف مع فلسطين، قف من أجل الحرية</h2>
+                            <p>
+                                ملاذنا الرقمي يدعو جميع أبطال العدالة. وهنا، نقف متحدين في إيماننا الراسخ بأن حرية الشعب الفلسطيني ليست مجرد قضية؛ بل هي قضية أيضا. إنه القلب النابض لمنزلنا الجماعي. الخوض في خزان من الموارد والحكمة التاريخية ، والتكاتف تضامنا من أجل التحرير الذي نسعى إليه جميعا.
+                            </p>
+                        </div>
+                    </div>
+        
+                    <!-- Third Column -->
+                    <div class="col-md-4">
+                        <div class="home-section-title pt-5 border rounded">
+                            <h2><span>ملاذ الوحدة:</span> حيث يتردد صدى الأصوات تضامنا</h2>
+                            <p>
+                                ادخل إلى ملاذ شامل حيث التضامن لا يعرف حدودا. وهنا، يتردد صدى حرية الشعب الفلسطيني كوتر حيوي في سيمفونية الحرية الجماعية. انضم إلى مجتمعنا المتنوع واستكشف كنزا دفينا من المواد والقصص ، مرددا جوهر الوحدة ودعم فلسطين.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
 
                         <!--/Text Section-->
@@ -183,17 +230,39 @@
                             <!--Note-->
 
         <section>
-            <div class="notes-text">
-                <h2 class="text-center">Important Notice:</h2>
-                <p class="text-center pb-3">
-                    We strive to provide you with the best browsing experience possible.<br>
-                    However, if you encounter any broken links or non-functional content while navigating our website, we kindly ask for your assistance in improving our services.<br>
 
-                    Please feel free to report any issues you encounter by contacting us via email at <a class="copyRightsLinks" href="mailto:support@palestinesaga.online">support@palestinesaga.online</a>.<br>
-                    Your feedback helps us ensure that our website remains up-to-date and accessible for all users.<br>
-                    Thank you for your cooperation and support.
-                </p>
+            <!-- English Content -->
+            <div id="note-content-en">
+                
+                <div class="notes-text">
+                    <h2 class="text-center">Important Notice:</h2>
+                    <p class="text-center pb-3">
+                        We strive to provide you with the best browsing experience possible.<br>
+                        However, if you encounter any broken links or non-functional content while navigating our website, we kindly ask for your assistance in improving our services.<br>
+    
+                        Please feel free to report any issues you encounter by contacting us via email at <a class="copyRightsLinks" href="mailto:support@palestinesaga.online">support@palestinesaga.online</a>.<br>
+                        Your feedback helps us ensure that our website remains up-to-date and accessible for all users.<br>
+                        Thank you for your cooperation and support.
+                    </p>
+                </div>
+
             </div>
+
+            <!-- Arabic Content -->
+            <div id="note-content-ar" dir='rtl' lang='ar' style="display: none;">
+
+                <div class="notes-text">
+                    <h2 class="text-center">:ملاحظة هامة</h2>
+                    <p class="text-center pb-3">
+                        نحن نسعى جاهدين لتزويدك بأفضل تجربة تصفح ممكنة. ومع ذلك ، إذا واجهت أي روابط معطلة أو محتوى غير وظيفي أثناء التنقل في موقعنا ، فنحن نطلب مساعدتك في تحسين خدماتنا
+    
+                        <a class="copyRightsLinks" href="mailto:support@palestinesaga.online">support@palestinesaga.online</a>لا تتردد في الإبلاغ عن أي مشاكل تواجهها عن طريق الاتصال بنا عبر البريد الإلكتروني على<br>
+                        تساعدنا ملاحظاتك على ضمان بقاء موقعنا الإلكتروني محدثا ومتاحا لجميع المستخدمين. شكرا لكم على تعاونكم ودعمكم.
+                    </p>
+                </div>                
+                
+            </div>
+
         </section>
                             <!--======Banner======-->
 
