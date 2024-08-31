@@ -244,6 +244,12 @@ document.addEventListener('DOMContentLoaded', function () {
       const heroContentAr = document.getElementById('hero-content-ar');
       const aboutContentEn = document.getElementById('about-content-en');
       const aboutContentAr = document.getElementById('about-content-ar');
+      const historyContentEn = document.getElementById('history-content-en');
+      const historyContentAr = document.getElementById('history-content-ar');
+      const galleryContentEn = document.getElementById('gallery-content-en');
+      const galleryContentAr = document.getElementById('gallery-content-ar');
+      const faqContentEn = document.getElementById('faq-content-en');
+      const faqContentAr = document.getElementById('faq-content-ar');
       const contactContentEn = document.getElementById('contact-content-en');
       const contactContentAr = document.getElementById('contact-content-ar');
       const noteContentEn = document.getElementById('note-content-en');
@@ -263,6 +269,12 @@ document.addEventListener('DOMContentLoaded', function () {
           heroContentAr,
           aboutContentEn,
           aboutContentAr,
+          historyContentEn,
+          historyContentAr,
+          galleryContentEn,
+          galleryContentAr,
+          faqContentEn,
+          faqContentAr,
           contactContentEn,
           contactContentAr,
           footerContentEn,
