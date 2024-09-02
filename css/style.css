@@ -32,9 +32,21 @@ h6 {
 .copyRightsLinks {
   color: #A8181B;
 }
-
 .copyRightsLinks:hover {
   color: #00A552;
+}
+
+/*Coming Soon*/
+.comingSoon-section {
+  background-color: #A8181B;
+}
+.comingSoon-Header {
+  font-size: 30px;
+  color: #000;
+}
+.comingSoon-text {
+  font-size: 23px;
+  color: #fff;
 }
 /*---------------------------------------
 # Banners Section

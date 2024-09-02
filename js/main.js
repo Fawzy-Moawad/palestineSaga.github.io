@@ -256,8 +256,8 @@ document.addEventListener('DOMContentLoaded', function () {
       const noteContentAr = document.getElementById('note-content-ar');
       const footerContentEn = document.getElementById('footer-content-en');
       const footerContentAr = document.getElementById('footer-content-ar');
-      const comingsoonContentEn = document.getElementById('comingsoon-content-en');
-      const comingsoonContentAr = document.getElementById('comingsoon-content-ar');
+      const comingSoonContentEn = document.getElementById('comingSoon-content-en');
+      const comingSoonContentAr = document.getElementById('comingSoon-content-ar');
 
       // Toggle visibility based on current language
       const elements = {
@@ -281,8 +281,8 @@ document.addEventListener('DOMContentLoaded', function () {
           footerContentAr,
           noteContentEn,
           noteContentAr,
-          comingsoonContentEn,
-          comingsoonContentAr
+          comingSoonContentEn,
+          comingSoonContentAr
       };
 
       for (const [key, value] of Object.entries(elements)) {
