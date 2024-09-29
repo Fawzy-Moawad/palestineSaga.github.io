@@ -584,6 +584,28 @@ h6 {
 
 .notes-text h2 {
   color: #ed3c0d;
+  font-size: 23px;
+  font-weight: 700;
+}
+.notes-text P {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .notes-text h2 {
+    color: #ed3c0d;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .notes-text P {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
 }
 /*--------------------------------------------------------------
 # Back to top button
